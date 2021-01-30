@@ -12,6 +12,8 @@
 		43F080FB25C5868B000CC9BD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F080FA25C5868B000CC9BD /* GameViewController.swift */; };
 		43F080FE25C5868B000CC9BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F080FC25C5868B000CC9BD /* Main.storyboard */; };
 		43F0810025C5868C000CC9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F080FF25C5868C000CC9BD /* Assets.xcassets */; };
+		43F0810A25C6080B000CC9BD /* Screene-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F0810825C6080B000CC9BD /* Screene-1.png */; };
+		43F0810B25C6080B000CC9BD /* Screen-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F0810925C6080B000CC9BD /* Screen-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		43F080FD25C5868B000CC9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43F080FF25C5868C000CC9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F0810125C5868C000CC9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F0810825C6080B000CC9BD /* Screene-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screene-1.png"; sourceTree = "<group>"; };
+		43F0810925C6080B000CC9BD /* Screen-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		43F080F525C5868B000CC9BD /* Game Practice */ = {
 			isa = PBXGroup;
 			children = (
+				43F0810D25C60814000CC9BD /* Screenshots */,
 				43F080F625C5868B000CC9BD /* AppDelegate.swift */,
 				43F080F825C5868B000CC9BD /* art.scnassets */,
 				43F080FA25C5868B000CC9BD /* GameViewController.swift */,
@@ -62,6 +67,15 @@
 				43F0810125C5868C000CC9BD /* Info.plist */,
 			);
 			path = "Game Practice";
+			sourceTree = "<group>";
+		};
+		43F0810D25C60814000CC9BD /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				43F0810925C6080B000CC9BD /* Screen-2.png */,
+				43F0810825C6080B000CC9BD /* Screene-1.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,8 @@
 				43F080F925C5868B000CC9BD /* art.scnassets in Resources */,
 				43F0810025C5868C000CC9BD /* Assets.xcassets in Resources */,
 				43F080FE25C5868B000CC9BD /* Main.storyboard in Resources */,
+				43F0810A25C6080B000CC9BD /* Screene-1.png in Resources */,
+				43F0810B25C6080B000CC9BD /* Screen-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
